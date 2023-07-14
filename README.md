@@ -1,3 +1,3 @@
 ## Simple Text Game
 
-This is a simple project that aims to emulate some of the best historics TUI games
+This is a simple project that aims to emulate a classic text adventure TUI game
