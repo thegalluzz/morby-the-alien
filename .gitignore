@@ -1,0 +1,5 @@
+# Ignore the .vs directory
+.vs/
+
+# Ignore all .opendb files
+*.opendb
