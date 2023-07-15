@@ -24,6 +24,10 @@ int main() {
 		printf("You are not ready, aren't you? \n");
 		return 1;
 	}
+	else {
+		printf("Input not understood");
+		return 1;
+	}
 
 	printf("Where do you want to start your search from? (Choose 1)\n");
 	printf("a)  The woods \n");
