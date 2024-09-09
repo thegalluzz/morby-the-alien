@@ -3,3 +3,6 @@
 
 # Ignore all .opendb files
 *.opendb
+
+# Ignore the .exe files
+*.exe
