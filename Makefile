@@ -16,7 +16,7 @@ OUT = game.exe
 
 # Default rule
 all:
-    $(CC) $(SRC) -o $(OUT) $(CFLAGS) $(INCLUDES) $(LIBS)
+	$(CC) $(SRC) -o $(OUT) $(CFLAGS) $(INCLUDES) $(LIBS)
 
 clean:
-    rm -f $(OUT)
+	rm -f $(OUT)
