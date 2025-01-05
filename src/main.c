@@ -11,7 +11,10 @@ int main(void)
     const int screenWidth = 800;
     const int screenHeight = 450;
 
-    InitWindow(screenWidth, screenHeight, "Morby the Alien");
+    InitWindow(screenWidth, screenHeight, "Morby The Alien");
+
+    const Image icon = LoadImage("assets/alien.png");
+    SetWindowIcon(icon);
 
     SetTargetFPS(60); // Set our game to run at 60 frames-per-second
     //--------------------------------------------------------------------------------------
