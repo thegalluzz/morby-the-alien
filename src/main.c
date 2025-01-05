@@ -15,6 +15,7 @@ int main(void)
 
     const Image icon = LoadImage("assets/alien.png");
     SetWindowIcon(icon);
+    UnloadImage(icon);
 
     SetTargetFPS(60); // Set our game to run at 60 frames-per-second
     //--------------------------------------------------------------------------------------
