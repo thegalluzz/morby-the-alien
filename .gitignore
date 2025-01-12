@@ -6,3 +6,8 @@
 
 # Ignore the .exe files
 *.exe
+
+# Igore final builds
+
+/builds/web/*
+/builds/windows/*
